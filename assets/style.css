@@ -80,12 +80,22 @@
     flex-direction: column;
     align-content: center;
     justify-content: space-between;
+}
+
+.footer-container ul.footer-links__main li,
+.footer-container ul.footer-links__secondary li.list-heading {
     font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-container hr {
+    margin-top: 8px;
 }
 
 .footer-links ul li {
     list-style: none;
     font-size: 12px;
+    font-weight: 200;
     cursor: pointer;
 }
 
